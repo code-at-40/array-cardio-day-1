@@ -1,3 +1,5 @@
+const fetch = require("node-fetch");
+
 const inventors = [
   { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
   { first: 'Isaac', last: 'Newton', year: 1643, passed: 1727 },
@@ -45,3 +47,11 @@ const people = [
 // 8. Reduce Exercise
 // Sum up the instances of each of these
 const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+
+const getBoulevard = async () => {
+  const result = await fetch('https://en.wikipedia.org/w/rest.php/v1/search/page?q=Boulevards_in_Paris');
+
+  console.log(result);
+};
+
+getBoulevard();

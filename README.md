@@ -8,6 +8,12 @@ JS only!
 
 To run this script you need Node JS installed.
 
+Install the packages, from your terminal run
+
+```
+npm i
+```
+
 ### Prerequisites
 
 To install Node JS, from you terminal run

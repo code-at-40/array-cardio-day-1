@@ -1,4 +1,4 @@
-# JS Clock
+# Array cardio day 1
 
 JavaScript 30 challenges | day #4 | Array cardio day 1
 
